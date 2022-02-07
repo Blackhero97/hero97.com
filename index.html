@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar boshlanishi -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">IT School</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse flex-grow-0 navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar tugashi -->
+
+    <!-- carusel qismi boshlanishi -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item first active">
+            <h2 class="car-t">Welcome to IT school</h2>
+            <p class="car-text">Lorem ipsum dolor sit amet
+                 consectetur adipisicing elit. Odit, odio obcaecati.
+                  Magnam, libero quo quod quam aspernatur reiciendis accusantium
+                 voluptatum nulla eaque illum illo modi quidem maxime
+                  temporibus enim harum.</p>
+                  <div class="btn btn-danger">Read More</div>
+          </div>
+          <div class="carousel-item second">
+            <h2 class="car-t">Welcome to IT school</h2>
+            <p class="car-text">Lorem ipsum dolor sit amet
+                 consectetur adipisicing elit. Odit, odio obcaecati.
+                  Magnam, libero quo quod quam aspernatur reiciendis accusantium
+                 voluptatum nulla eaque illum illo modi quidem maxime
+                  temporibus enim harum.</p>
+                  <div class="btn btn-danger">Read More</div>
+          </div>
+          <div class="carousel-item third">
+            <h2 class="car-t">Welcome to IT school</h2>
+            <p class="car-text">Lorem ipsum dolor sit amet
+                 consectetur adipisicing elit. Odit, odio obcaecati.
+                  Magnam, libero quo quod quam aspernatur reiciendis accusantium
+                 voluptatum nulla eaque illum illo modi quidem maxime
+                  temporibus enim harum.</p>
+                  <div class="btn btn-danger">Read More</div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- carusel qismi tugashi -->
+
+    <!-- check bolimi boshlanishi -->
+      <div class="check py-5">
+          <div class="container">
+              <div class="row py-5">
+                  <div class="col-md-12">
+                      <h6 class="ch-t">SERVICES <span class="lin"></span> </h6>
+                      <h2 class="ch-s">CHECK OUR SERVICES</h2>
+                  </div>
+              </div>
+              <div class="row py-4">
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card border-0 p-5 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="m-auto bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+                          <h5 class="card-t">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet 
+                              consectetur adipisicing elit. At, repudiandae?</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- check bolimi tugashu -->
+    <!-- test bolimi boshlanishi -->
+    <div class="test">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-12">
+              <h6 class="ch-t">TESTIMONIALS <span class="lin"></span> </h6>
+              <h2 class="ch-s">TESTIMONIALS</h2>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+             <div class="indi">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+             </div>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mon">
+                      <div class="tes-img">
+                        <img src="/testimonials-1.jpg" alt="" class="tes-man">
+                      </div>
+                      <div class="tes-info">
+                        <h4 class="tes-name">Saul Goodman</h4>
+                        <h6 class="tes-prof">Designer</h6>
+                        <p class="tes-text">Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Voluptatum optio expedita 
+                          facere debitis asperiores, magni eaque, aspernatur, 
+                          tenetur dolorem facilis ratione rem! Optio 
+                          porro nobis minima libero sit iste magnam?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- test bolimi tugashi -->
+
+    <!-- call bolimi boshlanishi -->
+        <div class="call mb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h2 class="call-t">Call To Action</h2>
+                  <p class="call-text">Duis aute irure dolor
+                     in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla 
+                     pariatur. Excepteur sint occaecat 
+                     cupidatat non proident, sunt in culpa
+                      qui officia deserunt mollit anim id 
+                      est laborum.</p>
+                      <div class="btn  btn-outline-danger">Call To Action</div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+    <!-- call bolimi boshlanishi -->
+
+    <!-- port bolimi boshlanishi -->
+        <div class="port">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h6 class="ch-t">PORTFOLIO <span class="lin"></span> </h6>
+                <h2 class="ch-s">CHECK OUR PORTFOLIO</h2>
+              </div>
+            </div>
+            <div class="row py-4">
+              <div class="col-md-12">
+                <div class="menu">
+                  <ul>
+                    <li><a href="">All</a></li>
+                    <li><a href="">APP</a></li>
+                    <li><a href="">CARD</a></li>
+                    <li><a href="">WEB</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row py-3">
+              <div class="col-md-4">
+                <img src="portfolio-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="row py-3">
+              <div class="col-md-4">
+                <img src="portfolio-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-6.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="row py-3">
+              <div class="col-md-4">
+                <img src="portfolio-7.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-8.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="portfolio-9.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- port bolimi tugashi -->
+     <!-- our bolimi boshlanishi -->
+        <div class="our">
+          <div class="container">
+            <div class="row py-5">
+              <div class="col-md-12">
+                <h6 class="ch-t">PRICING <span class="lin"></span> </h6>
+                <h2 class="ch-s">OUR COMPETING PRICES</h2>
+              </div>
+            </div>
+            <div class="row py-5">
+              <div class="col-md-4">
+                <div class="card p-5 text-center border-0">
+                  <div class="card-top">
+                    <h4 class="card-tt">Free</h4>
+                    <h3 class="card-ss">$0</h3>
+                    <p class="card-textt">per month</p>
+                  </div>
+                  <div class="card-center">
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                  </div>
+                  <div class="card-bottom">
+                    <div class="btn btn-outline-dark">Get Started</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border p-5 text-center border-0">
+                  <div class="card-top">
+                    <h4 class="card-tt">Free</h4>
+                    <h3 class="card-ss">$0</h3>
+                    <p class="card-textt">per month</p>
+                  </div>
+                  <div class="card-center">
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                  </div>
+                  <div class="card-bottom">
+                    <div class="btn btn-danger">Get Started</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-5 text-center border-0">
+                  <div class="card-top">
+                    <h4 class="card-tt">Free</h4>
+                    <h3 class="card-ss">$0</h3>
+                    <p class="card-textt">per month</p>
+                  </div>
+                  <div class="card-center">
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                    <p class="c-c-t">Quam adipicing vitia proin</p>
+                  </div>
+                  <div class="card-bottom">
+                    <div class="btn btn-outline-dark">Get Started</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     <!-- our bolimi tugashi -->
+     <!-- contact boshlanishi -->
+     <div class="contact">
+       <div class="container">
+         <div class="row mb-5">
+           <div class="col-md-12">
+            <h6 class="ch-t">CONTACT <span class="lin"></span></h6>
+            <h2 class="ch-s">CONTACT US</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-6">
+             <div class="row py-3">
+               <div class="col-md-12 text-center">
+                <div class="card p-5">
+                  <h4 class="c-t">Our Address</h4>
+                  <p class="c-text">A108 Adam Street, New York, NY 535022</p>
+                </div>
+               </div>
+             </div>
+             <div class="row py-3">
+               <div class="col-md-6 text-center">
+                <div class="card p-5">
+                  <h4 class="c-t">Email Us</h4>
+                  <p class="c-text">info@example.com</p>
+                  <p class="c-text">contact@example.com</p>
+                </div>
+               </div>
+               <div class="col-md-6 text-center">
+                <div class="card p-5">
+                  <h4 class="c-t">Email Us</h4>
+                  <p class="c-text">info@example.com</p>
+                  <p class="c-text">contact@example.com</p>
+                </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-6 mt-3">
+            <div class="card p-3">
+              <div class="row px-4 mt-4">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                   <label for="floatingInput">Email address</label>
+                 </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                   <label for="floatingInput">Email address</label>
+                 </div>
+                </div>
+              </div>
+              <div class="row px-4 mt-2">
+                <div class="col-md-12">
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row px-4 mt-4">
+                <div class="col-md-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row px-4 mt-4 mb-4">
+                <div class="col-md-12 text-center">
+                  <div class="btn btn-danger">Send Message</div>
+                </div>
+              </div>
+            </div>
+            
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- contact tugashi -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
